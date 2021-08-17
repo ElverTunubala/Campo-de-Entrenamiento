@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body{
+    font-family: 'Indie Flower', cursive;
+    background-color: black;
+}
+.h11{
+    color: rgb(226, 215, 215);
+    padding-left: 400px;
+}
+nav{
+    background-color: rgb(44, 41, 41);
+    width: 100%;
+    font-size: 25px;
+}
+
+.carousel-inner{
+    height: 400px;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.menu .lista{
+    display: inline-block;
+}
+.lista-r{
+    float: right;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 50px;
+    display: block;
+}
+.lista a:hover{
+    background-color: tomato;
+}
+.image{
+   width: 400px;
+   height: 250px;
+  
+}
+
+#items{
+    display: inline-block;
+    padding: 10px;
+}
+.nombre{
+    font-size: 20px;
+    color:blanchedalmond
+}
+/*fomulario*/
+.formularios{
+    background-image:url(imagenes/8.jpg);
+}
+.form{
+    position: relative;
+    padding-left: 300px;
+    font-size: 30px;
+    color: rgb(226, 215, 215);
+    margin-top: 100px;
+    
+   
+}

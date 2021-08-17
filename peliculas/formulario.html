@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body class="formularios">
+    <form class="form">
+        <div>
+            <h3>Formulario de Registro</h3>
+        </div>
+        <div>
+            <label>Nombre.. </label>
+            <input type="text" id="inputNombre">
+        </div>
+        <div>
+            <label>Apellido...</label>
+            <input type="text" id="inputApellido">
+        </div>
+        <div>
+            <label>Telefono.</label>
+            <input type="text" id="inputTelefono">
+        </div>
+        <div>
+            <label>Direccion</label>
+            <input type="text" id="inputDireccion">
+        </div>
+        
+        <div>
+            <label>Observaciones</label>
+            <br>
+            <textarea name="" id="observaciones" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            
+            <button id="btnEnviar" onclick="capturarDatos()">Enviar</button>
+        </div>
+    </form>
+    <script src="formulario.js" ></script>
+</body>
+</html>
